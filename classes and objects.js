@@ -72,4 +72,4 @@ console.log(user.name1);
 //console.log(user.name1)
 
 // use of instanceof keyword
- l instanceof lion
+ l instanceof lion//op=True
