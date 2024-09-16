@@ -1,11 +1,3 @@
-result=sum(3,4);
-console.log("the sum of two numbers is:",result);
-
-//arrow function
-
-const funcname=(x)=>{
-    console.log("the value of x is ",x)
-}
-funcname(5);
-funcname(6);
-funcname(7);
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const combined = [...arr1, ...arr2]; // [1, 2, 3, 4, 5, 6]
