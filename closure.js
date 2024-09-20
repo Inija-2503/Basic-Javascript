@@ -1,3 +1,5 @@
+// closure
+
 function makeFunc() {
     let name = "Mozi";
     function Name() {
