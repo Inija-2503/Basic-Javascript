@@ -22,11 +22,14 @@ async function js() {
     //array.then(console.log);
     //set.then(console.log);
 
+
+    // await is used when u need controle the things oin your ways
+    // and the execution is done parallely
     console.log("fetching the data pls wait")
     let arr = await array
-    console.log("Here is your answer" + arr)
+    console.log("Here is your answer:" + arr)
     let set1 = await set
-    console.log("insert your values" + set1)
+    console.log("insert your values:" + set1)
     return[arr,set1]
 }""
 
